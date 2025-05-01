@@ -16,7 +16,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: azure-vote-back
-        image: acrlong0225.azurecr.io/azure-voting-app-redis05-01/azure-vote-front:v1
+        image: test.azurecr.io/azure-voting-app-redis05-01/azure-vote-front:v1
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
